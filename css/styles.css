@@ -1,0 +1,28 @@
+h1{text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+body{background-color:tomato;
+    padding: 0px;
+margin: 0px;
+}
+header{background-color:lightgreen;
+    padding-top: 10px;
+}
+img{border-radius: 50%;
+}
+ul{padding: 0px;
+margin: 0px;
+list-style-type: none;
+width: 25%;
+}
+li{float: left;
+}
+li a{text-decoration: none;
+display: block;
+padding: 8px 16px;}
+li a.active{background-color: green;
+    color: white;
+}
+li a:hover:not(active){background-color: darkblue;
+    color: chartreuse;}

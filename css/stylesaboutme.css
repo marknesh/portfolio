@@ -1,0 +1,25 @@
+body{background-color: teal;
+    margin: 0px;
+    padding: 0px;
+}
+h1{text-align: center;
+font-family: fantasy;
+font-style: italic;
+}
+
+ul{padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    height: 100%;;
+    }
+    li{float: left
+        ;}
+    li a{text-decoration: none;
+    display: block;
+    padding: 8px 16px;}
+    li a.active{background-color: green;
+        color: white;
+    }
+    li a:hover:not(active){background-color: darkblue;
+        color: chartreuse;}
+

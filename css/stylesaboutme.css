@@ -28,11 +28,18 @@ text-align: center;}
         color: white;
     }
     li a:hover:not(active){background-color: darkblue;
-        color: chartreuse;}
+        color: chartreuse;
+    }
 
         @media screen and (max-width :600px)
         {ul.topnav li{float: none;
-        position: sticky;}}
-        div.content{height: 600px}
+        position: sticky;}
+    }
+        div.content{height: 600px
+        }
+        h3{font-style: italic;
+        color: snow;
+    }
+    header{color: violet;}
         
-
+        

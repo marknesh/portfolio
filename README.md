@@ -1,5 +1,6 @@
 # portfolio
 
-file:///home/mike/Documents/moringa-school-projects/portfolio/images/portfolio.jpeg
 
+
+![](/home/mike/Documents/moringa-school-projects/portfolio/images/home.v1.jpeg)
                                             

@@ -39,10 +39,12 @@ div{width: 100px;
     animation-name: example;
     animation-iteration-count: infinite;
     animation-duration: 4s;
-    animation-fill-mode: backwards;
+    
 
 }
 @keyframes example{
-    from {top: 0px; background-color: hotpink;}
-    to {top:100px;}
+    0% {background-color: red;top: 0px;left: 0px;}
+    25% {background-color: pink;top: 0px;left: 100px;}
+    50% {background-color: green;top: 100px;left: 100px;}
+    100% {background-color:lightskyblue;top: 100px;left: 0px;}
 }

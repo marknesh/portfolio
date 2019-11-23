@@ -5,22 +5,30 @@ h1{text-align: center;
 body{
     background-color:tomato;
     padding: 0px;
-margin: 0px;
+    margin: 0px;
 }
 p{margin-left:25% ;}
 header{background-color:lightgreen;
     padding-top: 10px;
 }
 div{margin-left: 25%;
-height: 1000px;}
+height: 300px;
+padding: 1px -30px;
+}
 img{
     width:729px;
     height: auto;
+    
 }
 ul{padding: 0px;
 margin: 0px;
 list-style-type: none;
 width: 25%;
+position: fixed;
+top: 0;
+overflow: auto;
+height: 100%;
+
 }
 
 li a{text-decoration: none;
@@ -30,4 +38,7 @@ li a.active{background-color: green;
     color: white;
 }
 li a:hover:not(active){background-color: darkblue;
-    color: chartreuse;}
+    color: chartreuse;
+}
+       @media screen and (max-width: 400px){ul li.a{text-align: center;
+    float: none;}}

@@ -33,6 +33,6 @@ text-align: center;}
         @media screen and (max-width :600px)
         {ul.topnav li{float: none;
         position: sticky;}}
-        div.content{height: 1000px;}
+        div.content{height: 600px}
         
 
